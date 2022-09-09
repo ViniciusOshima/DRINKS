@@ -766,6 +766,93 @@ dd {
   background-attachment: fixed;
 }
 
+/* CAIPIROSKA-DE-LIMÃO section */
+
+#RED-HIGHBALL-CITRUS {
+  display: flex;
+  width: 100vw;
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 80px 0px;
+  border: 1px solid;
+  gap: 50px;
+  justify-content: center;
+
+  background-color: #f9e79f;
+}
+
+.big-big-background-citrus {
+  margin-right: 30px;
+}
+
+.big-background-citrus {
+  position: absolute;
+  height: 760px;
+  width: 50px;
+
+  background-image: url(https://media.istockphoto.com/photos/colorful-bright-background-of-fresh-ripe-sweet-citrus-fruits-picture-id1272142030?b=1&k=20&m=1272142030&s=170667a&w=0&h=ysLz6aUcFXxlHGqqjVXxlD4kRUgQb7kUZvPFn7ilEm0=);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.background-citrus {
+  position: absolute;
+  height: 200px;
+  width: 50px;
+
+  background-image: url(https://media.istockphoto.com/photos/colorful-bright-background-of-fresh-ripe-sweet-citrus-fruits-picture-id1272142030?b=1&k=20&m=1272142030&s=170667a&w=0&h=ysLz6aUcFXxlHGqqjVXxlD4kRUgQb7kUZvPFn7ilEm0=);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* BLACK-&-TONIC-HIGHBALL section */
+
+#BLACK-TONIC-HIGHBALL {
+  display: flex;
+  width: 100vw;
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 80px 0px;
+  border: 1px solid;
+  gap: 50px;
+  justify-content: center;
+
+  background-color: #f8c471;
+}
+
+.big-big-background-highball {
+  margin-right: 30px;
+}
+
+.big-background-highball {
+  position: absolute;
+  height: 760px;
+  width: 50px;
+
+  background-image: url(https://i.insider.com/57600a3522cd201a008b48a5?width=1136&format=jpeg);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.background-highball {
+  position: absolute;
+  height: 210px;
+  width: 50px;
+
+  background-image: url(https://i.insider.com/57600a3522cd201a008b48a5?width=1136&format=jpeg);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#BLACK-TONIC-HIGHBALL h1 {
+  font-size: 60px;
+}
+
+#BLACK-TONIC-HIGHBALL .ul-flex,
+#BLACK-TONIC-HIGHBALL .ol-flex {
+  gap: 31px;
+}
+
 /* footer */
 
 footer {
