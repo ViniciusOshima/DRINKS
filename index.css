@@ -10,10 +10,8 @@
 html {
   background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/105681-bar.jpg);
   background-attachment: fixed;
-}
-
-body {
-  margin-left: 5px;
+  margin: 0;
+  padding: 0;
 }
 
 /* FONTS */
@@ -112,6 +110,63 @@ nav a {
   padding: 10px;
 
   font-weight: bold;
+}
+
+/* INICIO */
+
+#inicio {
+  height: 110vh;
+  width: 99vw;
+  padding-top: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  text-align: center;
+
+  background-image: url(https://images7.alphacoders.com/379/379392.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.escrita-inicio {
+  max-width: 1050px;
+  height: 700px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.escrita-inicio h1 {
+  font-size: 70px;
+  border: 2px solid white;
+}
+
+.escrita-inicio h2 {
+  font-size: 45px;
+}
+
+#inicio dl {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+#inicio dd {
+  padding: 10px 50px;
+  border-bottom: 1px solid white;
+  height: 120px;
+}
+
+.escrita-inicio dt {
+  padding-top: 10px;
+  font-size: 25px;
 }
 
 /* BACKGROUND MENU */
@@ -254,15 +309,17 @@ nav a {
   margin-bottom: 10px;
 }
 
-/* Header section */
+/* MENU section */
 
-header {
+#MENU {
   background-color: #fad7a0;
 
   width: 98.5vw;
   height: 165vh;
   display: flex;
   justify-content: center;
+  margin-left: 5px;
+  border: 2px solid black;
 }
 
 .background-menu {
