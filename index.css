@@ -169,6 +169,38 @@ nav a {
   font-size: 25px;
 }
 
+/* saiba mais section */
+
+#saiba-mais {
+  height: 100vh;
+}
+
+.saiba-mais-1 {
+  height: 50vh;
+  width: 100vw;
+  max-width: 1200px;
+
+  margin: 200px auto;
+  border-left: 2px solid white;
+  padding-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+
+  color: white;
+  line-height: 2;
+}
+
+.saiba-mais-1 h1 {
+  border: none;
+}
+
+.saiba-mais-1 p {
+  font-size: 20px;
+}
+
 /* BACKGROUND MENU */
 .menu-list {
   font-family: 'Dancing Script', cursive;
@@ -312,6 +344,8 @@ nav a {
 /* MENU section */
 
 #MENU {
+  background-image: url(https://img.freepik.com/premium-photo/cardboard-sheet-paper-abstract-texture-background_7182-2077.jpg?w=2000);
+  background-size: cover;
   background-color: #fad7a0;
 
   width: 98.5vw;
