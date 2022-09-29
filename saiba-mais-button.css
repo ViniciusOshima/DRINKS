@@ -14,7 +14,7 @@ button {
 }
 
 button.learn-more {
-  width: 12rem;
+  width: 24rem;
   height: auto;
 }
 
@@ -23,10 +23,10 @@ button.learn-more .circle {
   position: relative;
   display: block;
   margin: 0;
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 5rem;
   background: #fff;
-  border-radius: 1.625rem;
+  border-radius: 2.5rem;
 }
 
 button.learn-more .circle .icon {
@@ -41,7 +41,7 @@ button.learn-more .circle .icon {
 button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
-  width: 1.125rem;
+  width: 2.3rem;
   height: 0.125rem;
   background: none;
 }
@@ -72,6 +72,7 @@ button.learn-more .button-text {
   line-height: 1.6;
   text-align: center;
   text-transform: uppercase;
+  font-size: 20px;
 }
 
 button:hover .circle {

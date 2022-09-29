@@ -10,6 +10,8 @@
 html {
   margin: 0;
   padding: 0;
+
+  font-size: 62.5%;
 }
 
 body {
@@ -21,28 +23,27 @@ body {
 
 h1 {
   font-family: 'Alumni Sans Pinstripe', sans-serif;
-  font-size: 70px;
+  font-size: 7rem;
   letter-spacing: 10px;
 
   border: 2px solid;
   border-left: none;
-  padding-right: 27px;
 }
 
 .menu h1 {
   border: none;
   margin-bottom: 40px;
   margin-top: 20px;
-  font-size: 100px;
+  font-size: 10rem;
 }
 
 .menu h2 {
-  font-size: 55px;
+  font-size: 5.5rem;
 }
 
 .menu dt {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 3;
   color: white;
 }
@@ -54,22 +55,89 @@ h1 {
 
 h2 {
   font-family: 'Alumni Sans Pinstripe', sans-serif;
-  font-size: 50px;
+  font-size: 5rem;
 }
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1024px) {
+@media (max-width: 1334px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  .background-martini {
+    height: 0px !important;
+  }
+
+  .background-mary {
+    height: 0px !important;
+  }
+
+  .background-berry {
+    height: 0px !important;
+  }
+
+  .background-zacapa {
+    height: 0px !important;
+  }
+
+  .background-PENICILLIN {
+    height: 0px !important;
+  }
+
+  .background-MULE {
+    height: 0px !important;
+  }
+
+  .background-COLLINS {
+    height: 0px !important;
+  }
+
+  .background-tanqueray {
+    height: 0px !important;
+  }
+
+  .background-apple {
+    height: 0px !important;
+  }
+
+  .background-peach {
+    height: 0px !important;
+  }
+
+  .background-limão {
+    height: 0px !important;
+  }
+
+  .background-citrus {
+    height: 0px !important;
+  }
+
+  .background-highball {
+    height: 0px !important;
+  }
+
+  .background-abacaxi {
+    height: 0px !important;
+  }
+
+  .background-sweet {
+    height: 0px !important;
+  }
 }
 
 /* NAV */
 
 nav {
   box-sizing: border-box;
-  width: 99vw;
+  width: 100vw;
   height: 70px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 70px;
   z-index: 10;
 
   position: fixed;
@@ -105,6 +173,8 @@ nav a {
   display: flex;
   align-items: center;
   gap: 10px;
+
+  font-size: 1.6rem;
 }
 
 .botoes {
@@ -118,13 +188,14 @@ nav a {
   padding: 10px;
 
   font-weight: bold;
+  font-size: 1.6rem;
 }
 
 /* INICIO */
 
 #inicio {
   height: auto;
-  width: 99vw;
+  width: 100vw;
   padding-top: 120px;
   padding-bottom: 100px;
 
@@ -152,12 +223,12 @@ nav a {
 }
 
 .escrita-inicio h1 {
-  font-size: 70px;
+  font-size: 7rem;
   border: 2px solid white;
 }
 
 .escrita-inicio h2 {
-  font-size: 45px;
+  font-size: 4.5rem;
 }
 
 #inicio dl {
@@ -175,7 +246,11 @@ nav a {
 
 .escrita-inicio dt {
   padding-top: 10px;
-  font-size: 25px;
+  font-size: 2.5rem;
+}
+
+.escrita-inicio dd {
+  font-size: 1.6rem;
 }
 
 /* saiba mais section */
@@ -186,7 +261,7 @@ nav a {
 
 .saiba-mais-1 {
   height: 100vh;
-  width: 99.1vw;
+  width: 100vw;
   margin: 0 auto;
   padding-top: 80px;
 
@@ -200,7 +275,7 @@ nav a {
 
 .saiba-mais-2 {
   height: 50vh;
-  width: 100vw;
+  width: 100%;
   max-width: 1200px;
 
   margin: 0 auto;
@@ -223,12 +298,12 @@ nav a {
 }
 
 .saiba-mais-2 p {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .saiba-mais-3 {
   height: 50vh;
-  width: 100vw;
+  width: 100%;
   max-width: 1300px;
   margin: 0 auto;
 
@@ -252,12 +327,12 @@ nav a {
 }
 
 .saiba-mais-4 h1 {
-  font-size: 60px;
+  font-size: 6rem;
   border: none;
 }
 
 .saiba-mais-4 p {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .saiba-mais-5 {
@@ -271,12 +346,12 @@ nav a {
 }
 
 .saiba-mais-5 h1 {
-  font-size: 60px;
+  font-size: 6rem;
   border: none;
 }
 
 .saiba-mais-5 p {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .saiba-mais-7 {
@@ -288,7 +363,7 @@ nav a {
 .menu-list {
   font-family: 'Dancing Script', cursive;
   list-style: none;
-  font-size: 50px;
+  font-size: 5rem;
   line-height: 110px;
 
   height: 50vh;
@@ -431,11 +506,10 @@ nav a {
   background-size: cover;
   background-color: #fad7a0;
 
-  width: 98.5vw;
+  width: 100vw;
   height: 165vh;
   display: flex;
   justify-content: center;
-  margin-left: 5px;
   border: 2px solid black;
 }
 
@@ -475,6 +549,10 @@ nav a {
 .menu-dd,
 .menu h2 {
   line-height: 1.6;
+}
+
+.menu-dd {
+  font-size: 1.6rem;
 }
 
 .menu-2 h2 {
@@ -537,6 +615,18 @@ nav a {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.ol-flex {
+  margin-bottom: 6px;
+}
+
+.ul-flex li,
+.ol-flex li,
+.rendimento,
+.graduação,
+.preparo {
+  font-size: 1.6rem;
 }
 
 .background-martini {
@@ -885,7 +975,7 @@ dd {
 }
 
 #TANQUERAY-SEVILLA-TONIC h1 {
-  font-size: 55px;
+  font-size: 5.5rem;
 }
 
 #TANQUERAY-SEVILLA-TONIC .info {
@@ -987,7 +1077,7 @@ dd {
 }
 
 #BOTANICALS-SPRITZ-PEACH h1 {
-  font-size: 60px;
+  font-size: 6rem;
 }
 
 #BOTANICALS-SPRITZ-PEACH .ul-flex,
@@ -1113,7 +1203,7 @@ dd {
 }
 
 #BLACK-TONIC-HIGHBALL h1 {
-  font-size: 60px;
+  font-size: 6rem;
 }
 
 #BLACK-TONIC-HIGHBALL .ul-flex,
@@ -1161,7 +1251,7 @@ dd {
 }
 
 #CAIPIROSKA-LIMÃO-COM-ABACAXI h1 {
-  font-size: 52px;
+  font-size: 5.2rem;
 }
 
 #CAIPIROSKA-LIMÃO-COM-ABACAXI .info {
