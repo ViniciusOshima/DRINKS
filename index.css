@@ -15,8 +15,9 @@ html {
 }
 
 body {
-  background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/105681-bar.jpg);
-  background-attachment: fixed;
+  background-color: rgba(18, 12, 0, 1);
+
+  overflow-x: hidden;
 }
 
 /* FONTS */
@@ -69,16 +70,33 @@ h2 {
     font-size: 4rem;
   }
 
+  /* Martini section */
   .background-martini {
     height: 0px !important;
   }
+
+  #martini-foto img {
+    width: 400px;
+  }
+
+  /* Mary section */
 
   .background-mary {
     height: 0px !important;
   }
 
+  #BLOODY-MARY-FOTO img {
+    width: 500px;
+  }
+
+  /* red berry section */
+
   .background-berry {
     height: 0px !important;
+  }
+
+  #RED-BERRY-PUNCH-FOTO img {
+    width: 400px;
   }
 
   .background-zacapa {
@@ -257,6 +275,8 @@ nav a {
 
 #saiba-mais {
   height: 100vh;
+
+  background-image: url(https://images7.alphacoders.com/379/379392.jpg);
 }
 
 .saiba-mais-1 {
@@ -270,7 +290,12 @@ nav a {
   justify-content: flex-start;
   gap: 70px;
 
-  background-image: url(https://images7.alphacoders.com/379/379392.jpg);
+  background: rgb(32, 21, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 21, 0, 0.32816876750700286) 0%,
+    rgba(18, 12, 0, 1) 100%
+  );
 }
 
 .saiba-mais-2 {
@@ -289,8 +314,6 @@ nav a {
 
   color: white;
   line-height: 2;
-
-  background-image: url();
 }
 
 .saiba-mais-2 h1 {
