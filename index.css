@@ -8,10 +8,13 @@
 }
 
 html {
-  background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/105681-bar.jpg);
-  background-attachment: fixed;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/105681-bar.jpg);
+  background-attachment: fixed;
 }
 
 /* FONTS */
@@ -115,9 +118,10 @@ nav a {
 /* INICIO */
 
 #inicio {
-  height: 110vh;
+  height: auto;
   width: 99vw;
   padding-top: 120px;
+  padding-bottom: 100px;
 
   display: flex;
   justify-content: center;
@@ -133,7 +137,7 @@ nav a {
 
 .escrita-inicio {
   max-width: 1050px;
-  height: 700px;
+  height: auto;
 
   color: white;
 
@@ -176,11 +180,25 @@ nav a {
 }
 
 .saiba-mais-1 {
+  height: 100vh;
+  width: 99.1vw;
+  margin: 0 auto;
+  padding-top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 70px;
+
+  background-image: url(https://images7.alphacoders.com/379/379392.jpg);
+}
+
+.saiba-mais-2 {
   height: 50vh;
   width: 100vw;
   max-width: 1200px;
 
-  margin: 200px auto;
+  margin: 0 auto;
   border-left: 2px solid white;
   padding-left: 30px;
 
@@ -191,14 +209,74 @@ nav a {
 
   color: white;
   line-height: 2;
+
+  background-image: url();
 }
 
-.saiba-mais-1 h1 {
+.saiba-mais-2 h1 {
   border: none;
 }
 
-.saiba-mais-1 p {
+.saiba-mais-2 p {
   font-size: 20px;
+}
+
+.saiba-mais-3 {
+  height: 50vh;
+  width: 100vw;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+}
+
+.saiba-mais-3 div {
+  width: 500px;
+}
+
+.saiba-mais-4 {
+  border-left: 2px solid white;
+  padding-left: 30px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.saiba-mais-4 h1 {
+  font-size: 60px;
+  border: none;
+}
+
+.saiba-mais-4 p {
+  font-size: 20px;
+}
+
+.saiba-mais-5 {
+  border-left: 2px solid white;
+  padding-left: 30px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.saiba-mais-5 h1 {
+  font-size: 60px;
+  border: none;
+}
+
+.saiba-mais-5 p {
+  font-size: 20px;
+}
+
+.saiba-mais-7 {
+  display: flex;
+  gap: 30px;
 }
 
 /* BACKGROUND MENU */
