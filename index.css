@@ -61,14 +61,55 @@ h2 {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1615px) {
+  /* menu section */
+
+  .menu h1 {
+    font-size: 8rem;
+  }
+
+  .menu h2 {
+    line-height: 1 !important;
+    font-size: 4.5rem;
+  }
+
+  .menu dt {
+    line-height: 1;
+    padding: 10px 0;
+    padding-left: 5px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  /* saiba mais section */
+
+  .saiba-mais-1 h1 {
+    font-size: 5rem !important;
+  }
+
+  .saiba-mais-1 p {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 1417px) {
+  .menu-2 div h2 {
+    font-size: 4rem;
+  }
+}
+
 @media (max-width: 1334px) {
   h1 {
     font-size: 5rem;
+    line-height: 1;
   }
 
   h2 {
     font-size: 4rem;
   }
+
+  /* menu section */
 
   /* Martini section */
   .background-martini {
@@ -99,52 +140,181 @@ h2 {
     width: 400px;
   }
 
+  /* zacapa section */
+
   .background-zacapa {
     height: 0px !important;
   }
+
+  #zacapa-FOTO img {
+    width: 450px;
+  }
+
+  /* penicillin section */
 
   .background-PENICILLIN {
     height: 0px !important;
   }
 
+  #penicillin-foto img {
+    width: 400px;
+  }
+
+  /* MULE section */
+
   .background-MULE {
     height: 0px !important;
   }
+
+  #MULE-FOTO img {
+    width: 400px;
+  }
+
+  /* COLLINS section */
 
   .background-COLLINS {
     height: 0px !important;
   }
 
+  #collins-FOTO img {
+    width: 450px;
+  }
+
+  /* tanqueray section */
+
   .background-tanqueray {
     height: 0px !important;
   }
+
+  #tanqueray-foto img {
+    width: 400px;
+  }
+
+  /* apple section */
 
   .background-apple {
     height: 0px !important;
   }
 
+  #apple-FOTO img {
+    width: 400px;
+  }
+
+  /* peach section */
+
   .background-peach {
     height: 0px !important;
   }
+
+  #peach-FOTO img {
+    width: 400px;
+  }
+
+  /* limão section */
 
   .background-limão {
     height: 0px !important;
   }
 
+  #limao-FOTO img {
+    width: 400px;
+  }
+
+  /* citrus section */
+
   .background-citrus {
     height: 0px !important;
   }
+
+  #citrus-FOTO img {
+    width: 400px;
+  }
+
+  /* highball section */
 
   .background-highball {
     height: 0px !important;
   }
 
+  #highball-FOTO img {
+    width: 450px;
+  }
+
+  /*abacaxi section */
+
   .background-abacaxi {
     height: 0px !important;
   }
 
+  #abacaxi-FOTO img {
+    width: 400px;
+  }
+
+  /* sweet section */
+
   .background-sweet {
     height: 0px !important;
+  }
+
+  #sweet-FOTO img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /*inicio section */
+
+  .escrita-inicio h1 {
+    font-size: 5rem !important;
+  }
+
+  .escrita-inicio h2 {
+    font-size: 3.5rem !important;
+  }
+
+  .escrita-inicio dt {
+    font-size: 1.7rem !important;
+  }
+
+  .escrita-inicio dd {
+    font-size: 1.3rem !important;
+  }
+
+  .escrita-inicio img {
+    width: 250px;
+  }
+
+  #inicio dd {
+    height: 85px !important;
+  }
+}
+
+@media (max-width: 1120px) {
+  /* nav section */
+
+  nav img {
+    width: 30px;
+  }
+
+  nav a,
+  nav button {
+    font-size: 1.3rem !important;
+  }
+
+  nav h2 {
+    font-size: 3.5rem;
+  }
+
+  .escrita-inicio {
+    max-width: 900px !important;
+  }
+
+  #inicio dd {
+    height: 100px !important;
+  }
+
+  .escrita-inicio dt {
+    font-size: 2rem !important;
   }
 }
 
@@ -230,6 +400,7 @@ nav a {
 }
 
 .escrita-inicio {
+  width: 100%;
   max-width: 1050px;
   height: auto;
 
@@ -304,7 +475,6 @@ nav a {
   max-width: 1200px;
 
   margin: 0 auto;
-  border-left: 2px solid white;
   padding-left: 30px;
 
   display: flex;
@@ -314,6 +484,24 @@ nav a {
 
   color: white;
   line-height: 2;
+
+  position: relative;
+}
+
+.saiba-mais-2::before {
+  content: ' ';
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transition: all 0.5s;
+}
+
+.saiba-mais-2:hover::before {
+  height: 0;
 }
 
 .saiba-mais-2 h1 {
@@ -341,12 +529,28 @@ nav a {
 }
 
 .saiba-mais-4 {
-  border-left: 2px solid white;
   padding-left: 30px;
   height: 300px;
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  position: relative;
+}
+
+.saiba-mais-4::before {
+  content: ' ';
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.saiba-mais-4:hover::before {
+  height: 0;
 }
 
 .saiba-mais-4 h1 {
@@ -359,13 +563,30 @@ nav a {
 }
 
 .saiba-mais-5 {
-  border-left: 2px solid white;
   padding-left: 30px;
   height: 300px;
 
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  position: relative;
+}
+
+.saiba-mais-5::before {
+  content: ' ';
+  height: 100%;
+  width: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  transition: all 0.5s;
+}
+
+.saiba-mais-5:hover::before {
+  height: 0;
 }
 
 .saiba-mais-5 h1 {
@@ -380,6 +601,122 @@ nav a {
 .saiba-mais-7 {
   display: flex;
   gap: 30px;
+}
+
+/* github transition */
+
+#github-icon {
+  position: relative;
+}
+
+#github-icon img {
+  position: relative;
+  z-index: 2;
+}
+
+#github-icon::before {
+  content: ' ';
+  width: 0;
+  height: 100%;
+  background-color: #eb984e;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  border-radius: 30px;
+
+  transition: all 0.5s;
+}
+
+#github-icon:hover::before {
+  width: 100%;
+}
+
+/* linkedin transition */
+
+#linkedin-icon {
+  position: relative;
+}
+
+#linkedin-icon img {
+  position: relative;
+  z-index: 2;
+}
+
+#linkedin-icon::before {
+  content: ' ';
+  width: 0%;
+  height: 92%;
+  background-color: #eb984e;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  z-index: 0;
+  transition: all 0.5s;
+  border-radius: 15px;
+}
+
+#linkedin-icon:hover::before {
+  width: 100%;
+}
+
+/*instagram transition */
+
+#instagram-icon {
+  position: relative;
+}
+
+#instagram-icon img {
+  position: relative;
+  z-index: 2;
+}
+
+#instagram-icon::before {
+  content: ' ';
+  width: 0%;
+  height: 92%;
+  background-color: #eb984e;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  z-index: 0;
+  transition: all 0.5s;
+  border-radius: 19px;
+}
+
+#instagram-icon:hover::before {
+  width: 100%;
+}
+
+/* twitter transition */
+
+#twitter-icon {
+  position: relative;
+}
+
+#twitter-icon img {
+  position: relative;
+  z-index: 2;
+}
+
+#twitter-icon::before {
+  content: ' ';
+  width: 0%;
+  height: 80%;
+  background-color: #eb984e;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  z-index: 0;
+  transition: all 0.5s;
+  border-radius: 25px;
+}
+
+#twitter-icon:hover::before {
+  width: 100%;
 }
 
 /* BACKGROUND MENU */
@@ -590,6 +927,23 @@ nav a {
 }
 
 /*todo o section martini*/
+
+main {
+  background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/105681-bar.jpg);
+  background-attachment: fixed;
+}
+
+#gradient {
+  width: 100vw;
+  height: 100vh;
+
+  background: rgb(32, 21, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(18, 12, 0, 1) 0%,
+    rgba(32, 21, 0, 0) 100%
+  );
+}
 
 #espresso-martini {
   display: flex;
