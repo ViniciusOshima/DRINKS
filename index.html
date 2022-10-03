@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="saiba-mais-button.css">
+    <link rel="stylesheet" href="lateral.css">
 
     <title>DRINKS</title>
   </head>
@@ -23,13 +24,18 @@
 
     <header>
       <nav>
-        <div class="burguer">
-          <button onclick="lateral()">
-            <img src="./img/menu-burger.png" width="45px" height="45px" alt="menu-burguer">
-          </button>
-          
-          <h2>DRINKS</h2>
+        <div class="lateral-logo">
+          <label for="check" class="bar" >
+            <input id="check" type="checkbox" onclick="lateral()" class="burguer">
+        
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </label>
+            
+            <h2>DRINKS</h2>
         </div>
+        
         
         <ul>
           <li><a href="#inicio"><img src="./img/botao-de-inicio.png" alt="inicio" width="40px"> INÍCIO</a></li>
