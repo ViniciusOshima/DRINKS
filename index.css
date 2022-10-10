@@ -59,6 +59,10 @@ h2 {
   font-size: 5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1615px) {
@@ -488,7 +492,7 @@ nav a {
 /* INICIO */
 
 #inicio {
-  height: auto;
+  height: 110vh;
   width: 100vw;
   padding-top: 120px;
   padding-bottom: 100px;
@@ -536,6 +540,7 @@ nav a {
 #inicio dd {
   padding: 10px 50px;
   height: 120px;
+  color: white;
 }
 
 .transitions-inicio {
@@ -570,14 +575,20 @@ nav a {
   background-color: white;
 }
 
-.img-inicio-transition {
-  width: 350px !important;
+.img-inicio:hover {
+  width: 320px !important;
+  transition: all 0.5s;
+}
+
+.img-inicio {
+  width: 300px;
   transition: all 0.5s;
 }
 
 .escrita-inicio dt {
   padding-top: 10px;
   font-size: 2.5rem;
+  color: white;
 }
 
 .escrita-inicio dd {
@@ -1068,6 +1079,27 @@ nav a {
   padding-left: 10px;
 }
 
+/*Drinks para Encontro section */
+
+#para-encontros {
+  height: 50vh;
+  width: 100%;
+
+  color: white;
+
+  background-color: black;
+}
+
+.para-encontros-1 {
+  height: 50vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
 /*todo o section martini*/
 
 main {
@@ -1075,15 +1107,12 @@ main {
   background-attachment: fixed;
 }
 
-#gradient {
-  width: 100vw;
-  height: 100vh;
-
-  background: rgb(32, 21, 0);
+.gradient {
+  background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
-    rgba(18, 12, 0, 1) 0%,
-    rgba(32, 21, 0, 0) 100%
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
   );
 }
 
@@ -1091,7 +1120,7 @@ main {
   display: flex;
   width: 100vw;
   max-width: 1400px;
-  margin: 40px auto;
+  margin: 0 auto;
   padding: 80px 0px;
   border: 2px solid;
   gap: 50px;
@@ -1112,9 +1141,6 @@ main {
   background-image: url(https://images.unsplash.com/photo-1551610290-e153ec567dd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-attachment: fixed;
-}
-
-#martini-foto {
 }
 
 .flex-2 {

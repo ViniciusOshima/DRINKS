@@ -20,7 +20,10 @@ function lateral() {
 
 let contagemImg = 0
 
+/*
 function imgUp() {
   let img = document.querySelector('.img-inicio')
   img.setAttribute('class', 'img-inicio-transition')
 }
+
+*/
