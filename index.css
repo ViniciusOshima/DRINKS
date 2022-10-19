@@ -1083,7 +1083,7 @@ nav a {
 
 /*Drinks para Encontro section */
 
-#para-encontros {
+.para-encontros {
   height: 50vh;
   width: 100%;
 
@@ -1102,9 +1102,6 @@ nav a {
   align-items: center;
   justify-content: center;
   gap: 30px;
-}
-
-.para-encontros-1 h1 {
 }
 
 .para-encontros-1 p {
