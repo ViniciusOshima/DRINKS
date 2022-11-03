@@ -1907,8 +1907,45 @@ dd {
 
 footer {
   margin: 0;
-  padding: 0;
+  padding: 0 40px;
 
   background-color: black;
   color: white;
+}
+
+#fale-comigo {
+  display: flex;
+  gap: 80px;
+
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+#fale-comigo h1 {
+  border: none;
+  font-size: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+
+#info-footer {
+  display: flex;
+  gap: 100px;
+  font-size: 1.6rem;
+  text-align: center;
+
+  flex-grow: 3;
+}
+
+#info-footer li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#icons-footer {
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
